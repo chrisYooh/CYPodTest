@@ -15,7 +15,7 @@
 		83F358481DC98FB80071AC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F358461DC98FB80071AC82 /* LaunchScreen.storyboard */; };
 		83F358531DC98FB80071AC82 /* CYPodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F358521DC98FB80071AC82 /* CYPodTestTests.m */; };
 		83F3585E1DC98FB80071AC82 /* CYPodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F3585D1DC98FB80071AC82 /* CYPodTestUITests.m */; };
-		83F3586D1DC98FD20071AC82 /* CYPodTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F3586C1DC98FD20071AC82 /* CYPodTestButton.m */; };
+		83F358711DC993BE0071AC82 /* CYPodTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F358701DC993BE0071AC82 /* CYPodTestButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		83F358591DC98FB80071AC82 /* CYPodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYPodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F3585D1DC98FB80071AC82 /* CYPodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPodTestUITests.m; sourceTree = "<group>"; };
 		83F3585F1DC98FB80071AC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83F3586B1DC98FD20071AC82 /* CYPodTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPodTestButton.h; sourceTree = "<group>"; };
-		83F3586C1DC98FD20071AC82 /* CYPodTestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPodTestButton.m; sourceTree = "<group>"; };
+		83F3586F1DC993BE0071AC82 /* CYPodTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPodTestButton.h; sourceTree = "<group>"; };
+		83F358701DC993BE0071AC82 /* CYPodTestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPodTestButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,7 @@
 		83F3582C1DC98FB80071AC82 = {
 			isa = PBXGroup;
 			children = (
-				83F3586B1DC98FD20071AC82 /* CYPodTestButton.h */,
-				83F3586C1DC98FD20071AC82 /* CYPodTestButton.m */,
+				83F3586E1DC993BE0071AC82 /* CYPodButton */,
 				83F358371DC98FB80071AC82 /* CYPodTest */,
 				83F358511DC98FB80071AC82 /* CYPodTestTests */,
 				83F3585C1DC98FB80071AC82 /* CYPodTestUITests */,
@@ -143,6 +142,15 @@
 				83F3585F1DC98FB80071AC82 /* Info.plist */,
 			);
 			path = CYPodTestUITests;
+			sourceTree = "<group>";
+		};
+		83F3586E1DC993BE0071AC82 /* CYPodButton */ = {
+			isa = PBXGroup;
+			children = (
+				83F3586F1DC993BE0071AC82 /* CYPodTestButton.h */,
+				83F358701DC993BE0071AC82 /* CYPodTestButton.m */,
+			);
+			path = CYPodButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +292,7 @@
 				83F358401DC98FB80071AC82 /* ViewController.m in Sources */,
 				83F3583D1DC98FB80071AC82 /* AppDelegate.m in Sources */,
 				83F3583A1DC98FB80071AC82 /* main.m in Sources */,
-				83F3586D1DC98FD20071AC82 /* CYPodTestButton.m in Sources */,
+				83F358711DC993BE0071AC82 /* CYPodTestButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +530,7 @@
 				83F358641DC98FB80071AC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83F358651DC98FB80071AC82 /* Build configuration list for PBXNativeTarget "CYPodTestTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +539,7 @@
 				83F358671DC98FB80071AC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83F358681DC98FB80071AC82 /* Build configuration list for PBXNativeTarget "CYPodTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +548,7 @@
 				83F3586A1DC98FB80071AC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
